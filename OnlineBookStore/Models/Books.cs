@@ -14,7 +14,7 @@ namespace OnlineBookStore.Models
         public string AuthorName { get; set; }
         public string ISBN { get; set; }
         public string Edition { get; set; }
-        public DateTime YearPublished { get; set; }
+        public int YearPublished { get; set; }
         public int Price { get; set; }
     }
 }
